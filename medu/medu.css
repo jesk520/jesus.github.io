@@ -1,0 +1,54 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 50px;
+}
+h1 {
+    color: #ff69b4;
+}
+.animated-jellyfish {
+    width: 50px;
+    height: 50px;
+    background: url('URL_DE_LA_IMAGEN_DE_MEDUSA') no-repeat center center;
+    background-size: cover;
+    animation: float 5s infinite;
+}
+.response-btn {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4;
+    color: #fff;
+    cursor: pointer;
+}
+.response-btn:hover {
+    background-color: #db7093;
+}
+.romantic-image {
+    width: auto;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+.hidden {
+    display: none;
+}
